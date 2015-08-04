@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_bem"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblNameBem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/vwNomeBem"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White"
+        android:textSize="@dimen/titleActivity" />
+
+    <TextView
+        android:id="@+id/lblDatadoBem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/lblValorBem"
+        android:layout_below="@+id/lblNameBem"
+        android:layout_marginTop="20dp"
+        android:text="@string/vwDataBem"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/GreenYellow" />
+
+    <TextView
+        android:id="@+id/lblCategoriaBem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblDatadoBem"
+        android:layout_below="@+id/lblValorBem"
+        android:text="@string/vwCategoriaBem"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/GreenYellow" />
+
+    <TextView
+        android:id="@+id/lblDescricaoBem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCategoriaBem"
+        android:layout_below="@+id/lblCategoriaBem"
+        android:text="@string/vwlblDescricaoBem"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/GreenYellow" />
+
+    <TextView
+        android:id="@+id/lblValorBem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblDatadoBem"
+        android:text="@string/vwValorBem"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/GreenYellow" />
+
+    <TextView
+        android:id="@+id/txtDescricaoBem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblDescricaoBem"
+        android:layout_toRightOf="@+id/lblDescricaoBem"
+        android:fontFamily="@android:string/dialog_alert_title"
+        android:text="@string/vwTextDescricaoBem"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/GreenYellow"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+</RelativeLayout>

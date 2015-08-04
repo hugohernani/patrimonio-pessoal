@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"><i>Patrimônio Pessoal</i></string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">Login: </string>
+    <string name="reset_login_info">Resetar login</string>
+    <string name="bens_label">Bens</string>
+    <string name="direitos_label">Direitos</string>
+    <string name="obrigacoes_label">Obrigações</string>
+    <string name="patrimonio_liquido_label">Patrimônio Líquido</string>
+    <string name="title_activity_bens">Meus Bens</string>
+    <string name="title_activity_direitos">Meus Direitos</string>
+    <string name="title_activity_obrigacoes">Obrigações</string>
+    <string name="title_activity_patrimonio_liquido">Patrimônio Líquido</string>
+    <string name="title_activity_list_bens">Meus Bens</string>
+    <string name="add_bem">Adicionar Bem</string>
+    <string name="no_items">Não há itens cadastrados</string>
+    <string name="title_list_activity">Titulo da Activity</string>
+    <string name="info_item">Informações</string>
+    <string name="bem_name_field">Digite o nome do Bem</string>
+    <string name="descricao_bem_field">Digite a descrição do bem</string>
+    <string name="valor_name_field">Digite o valor do Bem</string>
+    <string name="button_salvar_bem">Salvar Bem</string>
+    <string name="bt_alterar_label">Alterar este item</string>
+    <string name="bt_remover_label">Remover este item</string>
+    <string name="item_removed_toast">Item removido</string>
+    <string name="choose_data">Escolha uma data</string>
+    <string name="bem_saved">Bem salvo</string>
+    <string name="hint_categoria_name">Digite o nome da categoria</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_add">Adicionar</string>
+    <string name="bt_sem_categoria">Sem categoria</string>
+    <string name="bt_outra_categoria">Adicionar categoria</string>
+    <string name="campos_vazios">Algum campo obrigatório está vazio!</string>
+    <string name="add_obrigacao">Adicionar obrigação</string>
+    <string name="add_direito">Adicionar Direito</string>
+    <string name="title_categoria">Categoria</string>
+    <string name="zerar_configuracoes">Zerar Configurações</string>
+    <string name="title_activity_configuracoes">Configurações</string>
+    <string name="categoria_salva">Categoria salva</string>
+    <string name="bens_valor_total">Valor total:  %5.2f</string>
+    <string name="change_view">Mudar de visão</string>
+    <string name="zerar_categorias">Zerar categorias</string>
+    <string name="zerar_bens">Deletar todos os bens</string>
+    <string name="labelData">data</string>
+    <string name="vwNomeBem">Título do Bem</string>
+    <string name="vwDataBem">Data: %s</string>
+    <string name="vwValorBem">Valor: %f</string>
+    <string name="vwCategoriaBem">Categoria: %s</string>
+    <string name="vwlblDescricaoBem">Descrição:</string>
+    <string name="vwTextDescricaoBem">Descrição Texto</string>
+    <string name="title_activity_view_bem">Visualização de Bem</string>
+    <string name="itemALterarBem">Alterar Bem</string>
+
+</resources>

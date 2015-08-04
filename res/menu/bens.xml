@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/salvar_bem"
+        android:showAsAction="ifRoom"
+        android:title="@string/button_salvar_bem"/>
+
+</menu>

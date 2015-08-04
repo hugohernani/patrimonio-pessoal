@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_bem"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BensActivity" >
+
+    <TextView
+        android:id="@+id/titleActivityBem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/info_item"
+        android:textColor="@color/White"
+        android:textSize="@dimen/titleActivity" />
+
+    <LinearLayout
+        android:id="@+id/relativeLayoutBensDIreitos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleActivityBem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/nomeBem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/bem_name_field"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/valorBem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/valor_name_field"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/descricaoBem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/descricao_bem_field"
+            android:inputType="text" />
+
+        <Spinner
+            android:id="@+id/bensCategorias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@color/White" />
+
+        <RadioGroup
+            android:id="@+id/rg_categorias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="7dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bens_sem_categoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/bt_sem_categoria"
+                android:textColor="@color/White"
+                android:textColorHint="@color/White" />
+
+            <RadioButton
+                android:id="@+id/bens_outra_categoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/bt_outra_categoria"
+                android:textColor="@color/White" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btChooseData"
+            android:layout_width="wrap_content"
+            android:layout_height="83dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/listagem"
+            android:gravity="center_horizontal|center"
+            android:onClick="showDatePicker"
+            android:text="@string/choose_data"
+            android:textColor="@color/redOrange"
+            android:textSize="@dimen/titleActivity" />
+
+    </LinearLayout>
+
+</RelativeLayout>

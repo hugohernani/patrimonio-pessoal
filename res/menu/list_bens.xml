@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add_bem"
+        android:showAsAction="ifRoom"
+        android:title="@string/add_bem"/>
+    
+    <item android:id="@+id/change_view"
+        android:showAsAction="never"
+        android:title="@string/change_view" />
+    
+    <item android:id="@+id/zerar_bens"
+        android:showAsAction="never"
+        android:title="@string/zerar_bens" />
+    
+    <item
+        android:id="@id/zerar_categorias"
+        android:showAsAction="never"
+        android:title="@string/zerar_categorias"/>
+
+    
+
+</menu>

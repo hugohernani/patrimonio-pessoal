@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.patrimoniopessoal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pl"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.patrimoniopessoal.Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.patrimoniopessoal.Login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.patrimoniopessoal.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="bens.BensActivity"
+            android:label="@string/title_activity_bens"
+            android:screenOrientation="sensorPortrait" >
+        </activity>
+        <activity
+            android:name="direitos.DireitosActivity"
+            android:label="@string/title_activity_direitos" >
+        </activity>
+        <activity
+            android:name="obrigacoes.ObrigacoesActivity"
+            android:label="@string/title_activity_obrigacoes" >
+        </activity>
+        <activity
+            android:name="patrimonioliquido.PatrimonioLiquidoActivity"
+            android:label="@string/title_activity_patrimonio_liquido" >
+        </activity>
+        <activity
+            android:name="bens.ListBensActivity"
+            android:label="@string/title_activity_list_bens" >
+        </activity>
+        <activity
+            android:name="settings.ConfiguracoesActivity"
+            android:label="@string/title_activity_configuracoes" >
+        </activity>
+        <activity
+            android:name="bens.ListaBens_byCategory_Activity"
+            android:label="@string/title_activity_list_bens" >
+        </activity>
+        <activity
+            android:name="bens.ViewBemActivity"
+            android:label="@string/title_activity_view_bem"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

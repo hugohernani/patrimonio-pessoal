@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_main1"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/LabelItemMenuPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:focusable="false"
+            android:paddingBottom="60dp"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#00BFFF"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btMainItemBens"
+            style="@style/LabelItemMenuPrincipal"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/layer_list"
+            android:onClick="openFuncionalidade"
+            android:text="@string/bens_label" />
+
+        <Button
+            android:id="@+id/btMainItemDireitos"
+            style="@style/LabelItemMenuPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/layer_list"
+            android:onClick="openFuncionalidade"
+            android:text="@string/direitos_label" />
+
+        <Button
+            android:id="@+id/btMainItemObrigacoes"
+            style="@style/LabelItemMenuPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/layer_list"
+            android:onClick="openFuncionalidade"
+            android:text="@string/obrigacoes_label" />
+
+        <Button
+            android:id="@+id/btMainItemPatrimonioLiquido"
+            style="@style/LabelItemMenuPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/layer_list"
+            android:onClick="openFuncionalidade"
+            android:text="@string/patrimonio_liquido_label" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_main1"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutBensDIreitos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/IBDireitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:onClick="openFuncionalidade"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/IBBens"
+            android:layout_width="195dp"
+            android:layout_height="191dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:cropToPadding="false"
+            android:onClick="openFuncionalidade"
+            android:scaleType="center"
+            android:src="@drawable/icone_bens" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayoutBensDIreitos"
+        android:layout_marginTop="10dp" >
+
+        <ImageButton
+            android:id="@+id/IBPatrimonioLiquido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30dp"
+            android:onClick="openFuncionalidade"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/IBObrigacoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_launcher"
+            android:onClick="openFuncionalidade" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
